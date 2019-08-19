@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/xanzy/go-gitlab"
+	"github.com/ycornamusaz/go-gitlab"
 )
 
 // Config is per-provider, specifies where to connect to gitlab

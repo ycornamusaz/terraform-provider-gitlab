@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/xanzy/go-gitlab"
+	"github.com/ycornamusaz/go-gitlab"
 )
 
 func dataSourceGitlabProject() *schema.Resource {

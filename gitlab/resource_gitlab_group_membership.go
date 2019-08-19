@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/xanzy/go-gitlab"
+	"github.com/ycornamusaz/go-gitlab"
 )
 
 func resourceGitlabGroupMembership() *schema.Resource {

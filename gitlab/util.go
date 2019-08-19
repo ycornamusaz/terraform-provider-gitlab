@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	gitlab "github.com/xanzy/go-gitlab"
+	gitlab "github.com/ycornamusaz/go-gitlab"
 )
 
 var accessLevelNameToValue = map[string]gitlab.AccessLevelValue{

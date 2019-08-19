@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform/helper/acctest"
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/terraform"
-	gitlab "github.com/xanzy/go-gitlab"
+	gitlab "github.com/ycornamusaz/go-gitlab"
 )
 
 func TestAccGitlabServiceSlack_basic(t *testing.T) {

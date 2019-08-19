@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform/helper/acctest"
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/xanzy/go-gitlab"
+	"github.com/ycornamusaz/go-gitlab"
 )
 
 func TestAccGitlabLabel_basic(t *testing.T) {

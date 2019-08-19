@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/helper/validation"
-	"github.com/xanzy/go-gitlab"
+	"github.com/ycornamusaz/go-gitlab"
 )
 
 func resourceGitlabProjectCluster() *schema.Resource {

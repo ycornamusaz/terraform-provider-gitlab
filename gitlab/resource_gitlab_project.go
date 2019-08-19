@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/helper/validation"
-	gitlab "github.com/xanzy/go-gitlab"
+	gitlab "github.com/ycornamusaz/go-gitlab"
 )
 
 var resourceGitLabProjectSchema = map[string]*schema.Schema{

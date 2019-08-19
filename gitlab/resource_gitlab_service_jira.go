@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	gitlab "github.com/xanzy/go-gitlab"
+	gitlab "github.com/ycornamusaz/go-gitlab"
 )
 
 func resourceGitlabServiceJira() *schema.Resource {
